@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Monrope";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Monrope");
+         url("/fonts/BebasNeueRegular.woff") format ("woff");
+         url("/fonts/BebasNeueRegular.ttf") format ("ttf");
+         url("/fonts/BebasNeueRegular.eot") format ("eot");
+}
+
+@font-face {
+    font-family:"Monrope";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Monrope");
+         url("/fonts/BebasNeueBold.ttf") format ("ttf");
+         url("/fonts/BebasNeueBold.eot") format ("eot");

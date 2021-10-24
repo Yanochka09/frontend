@@ -3,89 +3,11 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #18191F;
+    margin: 0;
 }
 
 h1,
 h2,
-p{
-    margin: 0;
-}
-.content {
-    width: 1110px;
-    margin: 0 auto;
-}
-
-.left,
-.right {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.left {
-    width: 540px;
-}
-
-.right {
-    width: 444px;
-    margin: 158px 0px 158px 82px;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 16px;
-}
-
 p {
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-
-.img,
-.text {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.img2,
-.text2 {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.text,
-.text2 {
-    margin-left: 16px;
-    margin-bottom: 24px;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 4px;
-}
-
-.img,
-.img2 {
-    weight: 56px;
-    height: 56px;
-}
-
-.img {
-    margin-bottom: 26px;
-}
-
-.img2 {
-    margin-bottom: 40px;
-}
-
-button {
-    background-color:#8C30F5;
-    color:#FFFFFF;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 10px 22px;
-    border-radius: 8px;
-    border: 0;
-    cursor: pointer;
+margin: 0;
 }

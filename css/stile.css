@@ -1,6 +1,6 @@
 body {
     font-family: "Manrope", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     color: #18191F;
     margin: 0;
@@ -10,4 +10,70 @@ h1,
 h2,
 p {
 margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1440px;
+    background-color:#D5FAFC;
+    margin: 0 auto;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: blue;
+}
+
+.top-text {
+    width: 445px;
+    background-color: burlywood;
+    margin-top: 190px;
+    margin-left: 260px;
+    margin-bottom: 52px;
+}
+
+.bottom-text {
+    width: 350px;
+    background-color: #FFFFFF;
+    margin-left: 355px;
+    margin-bottom: 148px;
+    padding: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+p {
+    line-height: 32px;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -4px;
+    background-color: blueviolet;
+}
+
+.top-text2 {
+    width: 445PX;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 168px;
+    margin-right: 256px;
+    padding: 32px;
+}
+
+.bottom-text2 {
+    width: 350px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 30px;
+    margin-right: 351px;
+    margin-bottom: 80px;
+    padding: 32px;
 }

@@ -3,11 +3,57 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #18191F;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1,
 h2,
 p {
 margin: 0;
+}
+
+.conteiner {
+    width: 1110px;
+    height: 200px;
+    background-color: #8C30F5;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section-item {
+    width: 1110px;
+    background-color: #FFFFFF;    ;
+    position: absolute;
+    margin: 0 auto;
+    top: 88px;
+    padding: 32px 0;
+    border-radius: 8px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    width: 255px;
+    height: 176px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 16px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #8C30F5;
+}
+
+p {
+    font-weight: 400;
 }

@@ -1,13 +1,92 @@
 body {
     font-family: "Manrope", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     color: #18191F;
-    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 h1,
 h2,
 p {
 margin: 0;
+}
+
+.conteiner {
+    width: 1110px;
+}
+
+.header-top {
+    position: fixed;
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+}
+
+.logo,
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    margin: 22px 0px;
+}
+
+nav {
+    margin: 26px 0px 26px 630px;
+}
+
+a {
+    text-decoration: none;
+    color: #18191F;
+}
+
+.ml32 {
+    margin-left: 32px;
+}
+
+.conteiner-section {
+    width: 1110px;
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+}
+
+.left,
+.right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left {
+    width: 540px;
+    height: 356px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 72px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    line-height: 32px;
+}
+
+.left img,
+.discover {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.discover {
+    margin-top: 32px;
+}
+
+.right {
+    width: 560px;
 }
